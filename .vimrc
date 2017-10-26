@@ -15,31 +15,8 @@ call plug#begin('~/.vim/plugged')
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
 
-  " カラースキームのプレビュー
-  Plug 'Shougo/unite.vim'
-  Plug 'ujihisa/unite-colorscheme'
-
-  " カラースキーム一覧
-  Plug 'altercation/vim-colors-solarized'
-  Plug 'croaker/mustang-vim'
-  Plug 'jeffreyiacono/vim-colors-wombat'
-  Plug 'nanotech/jellybeans.vim'
-  Plug 'vim-scripts/Lucius'
-  Plug 'vim-scripts/Zenburn'
-  Plug 'mrkn/mrkn256.vim'
-  Plug 'jpo/vim-railscasts-theme'
-  Plug 'therubymug/vim-pyte'
-  Plug 'tomasr/molokai'
-  Plug 'chriskempson/vim-tomorrow-theme'
-  Plug 'vim-scripts/twilight'
-  Plug 'w0ng/vim-hybrid'
-  Plug 'freeo/vim-kalisi'
-  Plug 'morhetz/gruvbox'
-  Plug 'toupeira/vim-desertink' 
-  Plug 'sjl/badwolf'
-  Plug 'itchyny/landscape.vim'
-  Plug 'joshdick/onedark.vim'
-  Plug 'gosukiwi/vim-atom-dark'
+  " CoffeeScript
+  Plug 'kchmck/vim-coffee-script'
 call plug#end()
 
 syntax on
