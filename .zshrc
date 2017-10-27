@@ -13,3 +13,6 @@ alias o="open"
 cd ~/work
 
 eval "$(rbenv init -)"
+
+export GOPATH=$HOME/.go
+export PATH=$HOME/.go/bin:$PATH
