@@ -1,4 +1,4 @@
-export ZSH=/Users/yuki540/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 ZSH_THEME="agnoster"
@@ -9,8 +9,7 @@ source $ZSH/oh-my-zsh.sh
 alias www='open "/Applications/Google Chrome.app" --args --enable-xss-auditor'
 alias xss='open -a "/Applications/Google Chrome.app" --args --disable-xss-auditor'
 alias o="open"
-
-cd ~/work
+alias dl='docker ps -l -q'
 
 eval "$(rbenv init -)"
 
