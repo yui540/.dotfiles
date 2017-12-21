@@ -1,7 +1,7 @@
 export ZSH=$HOME/.oh-my-zsh
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
-ZSH_THEME="agnoster"
+ZSH_THEME="nicoulaj"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
