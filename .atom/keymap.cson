@@ -1,0 +1,52 @@
+# Your keymap
+#
+# Atom keymaps work similarly to style sheets. Just as style sheets use
+# selectors to apply styles to elements, Atom keymaps use selectors to associate
+# keystrokes with events in specific contexts. Unlike style sheets however,
+# each selector can only be declared once.
+#
+# You can create a new keybinding in this file by typing "key" and then hitting
+# tab.
+#
+# Here's an example taken from Atom's built-in keymap:
+#
+# 'atom-text-editor':
+#   'enter': 'editor:newline'
+#
+# 'atom-workspace':
+#   'ctrl-shift-p': 'core:move-up'
+#   'ctrl-p': 'core:move-down'
+#
+# You can find more information about keymaps in these guides:
+# * http://flight-manual.atom.io/using-atom/sections/basic-customization/#customizing-keybindings
+# * http://flight-manual.atom.io/behind-atom/sections/keymaps-in-depth/
+#
+# If you're having trouble with your keybindings not working, try the
+# Keybinding Resolver: `Cmd+.` on macOS and `Ctrl+.` on other platforms. See the
+# Debugging Guide for more information:
+# * http://flight-manual.atom.io/hacking-atom/sections/debugging/#check-the-keybindings
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#configuring-with-cson
+
+
+'body':
+  'cmd-k': 'pane:split-right-and-copy-active-item'      # 画面分割
+  'ctrl-up': 'core:move-to-top'                         # カーソルを一番上に
+  'ctrl-down': 'core:move-to-bottom'                    # カーソルを一番下に
+
+
+'atom-text-editor':
+  'ctrl-f': 'prettier:format'                           # prettier
+  'ctrl-m': 'markdown-preview:toggle'                   # マークダウン
+  'ctrl-left': 'editor:move-to-first-character-of-line' # カーソルを左に
+  'ctrl-right': 'editor:move-to-end-of-line'            # カーソルを右に
+  'ctrl-b': 'atom-beautify:beautify-editor'             # atom-beautify
+  'ctrl-w': 'editor:select-word'                        # 単語選択
+  'ctrl-l': 'editor:select-line'                        # 一行選択
+
+
+'.platform-darwin atom-workspace':
+  'ctrl-c': 'color-picker:open'                         # カラーコピー

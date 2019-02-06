@@ -1,0 +1,43 @@
+"*":
+  "atom-material-ui":
+    colors:
+      abaseColor: "#5c959c"
+  "autocomplete-paths":
+    maxFileCount: 5000
+  core:
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      "node_modules"
+      "vendor"
+      "tmp"
+    ]
+    openEmptyEditorOnStart: false
+    telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+    titleBar: "custom-inset"
+  editor:
+    fontSize: 11
+    preferredLineLength: 100
+    showIndentGuide: true
+    showInvisibles: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "2cbbfde3-9083-4b13-8366-dcf42620987b"
+  "linter-eslint":
+    autofix:
+      fixOnSave: true
+  "linter-ui-default":
+    showPanel: true
+  "prettier-atom":
+    formatOnSaveOptions: {}
+  welcome:
+    showOnStartup: false

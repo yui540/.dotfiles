@@ -1,0 +1,7 @@
+[user]
+  email = tabletennis540@gmail.com
+  name = yui540
+[alias]
+  glog = log --graph
+  st = status
+  mt = commit
