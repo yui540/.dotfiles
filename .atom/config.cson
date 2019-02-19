@@ -26,7 +26,6 @@
     titleBar: "custom-inset"
   editor:
     fontSize: 11
-    preferredLineLength: 100
     showIndentGuide: true
     showInvisibles: true
     tabType: "soft"
