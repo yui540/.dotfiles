@@ -1,6 +1,7 @@
 'use strcit'
 
 const exec = require('child_process').execSync
+const npmList = require('./npm-list')
 
 // git
 exec(`ln -sf ${__dirname}/.gitconfig ~/.gitconfig`)
@@ -36,3 +37,7 @@ console.log(`[finished] atom`)
 // apm install
 exec('apm install --packages-file .atom/package-list')
 console.log('[installed] atom packages')
+
+// npm install
+exec(`npm i -g ${npmList}`)
+console.log('[installed] npm packages')
