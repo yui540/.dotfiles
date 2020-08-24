@@ -1,6 +1,8 @@
 export ZSH=$HOME/.oh-my-zsh
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
+eval "$(rbenv init -)"
+
 ZSH_THEME="kolo"
 plugins=(git)
 

@@ -1,1 +1,0 @@
-/Users/yui540/work/.dotfiles/.vim

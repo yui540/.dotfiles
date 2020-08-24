@@ -89,8 +89,7 @@ module.exports = {
     "hyper-statusline",
     "hypercwd",
     "hyper-always-on-top",
-    "hyper-akari",
-    "hyper-dialog"
+    "hyper-akari"
   ],
 
   localPlugins: [
